@@ -11,6 +11,19 @@ Additionally, a **manual button** allows sending an SMS anytime with the current
 
 ---
 
+## 🗂️ Project Versions
+This project has several iterations of the code. For **presentation purposes**, please use:  
+
+- **`FinalV2.ino`** ✅ – Final version with:  
+  - Maximum passenger limit  
+  - Automatic SMS when full  
+  - LCD warning message  
+  - GPS integration  
+
+Other versions (v1, v1.5) were used for testing and debugging.  
+
+---
+
 ## 🔧 Components Required
 - **Arduino Board** (ESP32 or compatible) 🛠️  
 - **TF-Mini LiDAR sensor** (for precise distance detection) 🎯  
@@ -53,7 +66,7 @@ Additionally, a **manual button** allows sending an SMS anytime with the current
 
 3. **Upload Code** ⬆️
    - Connect the Arduino/ESP32 board.  
-   - Open `PeopleCounter.ino` (your main code).  
+   - Open **`FinalV2.ino`** (main code for presentation).  
    - Configure the **phone number**:  
      ```cpp
      #define PHONE_NUMBER "+639XXXXXXXXX"
